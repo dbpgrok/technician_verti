@@ -2,6 +2,6 @@
 export interface SystemMetrics {
   id: string;
   verticalStatus: 'active' | 'idle';
-  timestamp: number;
+  timestamp: Date;
   lastUpdated?: string;
 }
